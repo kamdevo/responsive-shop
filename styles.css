@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #fde994;
+  --secondary-color: #f5dd7b;
+  --terciary-color: #d9b650;
+  --dark-color: #76332d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Spotify Mix;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+}
+.card {
+  background-color: #ffef9f;
+  width: 19rem;
+}
+
+.btn-custom {
+  background-color: #76332d;
+  color: white;
+}
+
+.socials svg {
+  transition: all 0.3s;
+}
+
+.socials svg:hover {
+  color: var(--dark-color);
+  transform: scale(1.2);
+}

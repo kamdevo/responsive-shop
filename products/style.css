@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #fde994;
+  --secondary-color: #f5dd7b;
+  --terciary-color: #d9b650;
+  --dark-color: #76332d;
+}
+
+body {
+  background-color: var(--primary-color) !important;
+}
+
+.card {
+  color: var(--dark-color);
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+.btn-custom {
+  background-color: #76332d;
+  color: white;
+}
+
+.page-link {
+  background-color: var(--dark-color) !important;
+  color: #fff !important;
+}
+
+.socials svg {
+  transition: all 0.3s;
+}
+
+.socials svg:hover {
+  color: var(--dark-color);
+  transform: scale(1.2);
+}
